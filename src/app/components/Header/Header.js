@@ -1,14 +1,17 @@
+import { LinkedIn } from "@material-ui/icons";
 import React from "react";
 import "./Header.css";
 
 function Header() {
+  const url = "";
   return (
     <header className="header">
       {/* TODO: [LC-7]Header */}
-      {/*		TODO: [LC-13] Logo */}
-      {/*		TODO: [LC-14] search bar */}
+      <a href={url}>
+          <LinkedIn titleAccess="LinkedIn" className="header__logo" />
+      </a>
+      {/*		TODO: [LC-13] search bar */}
       {/*		TODO: [LC-15] navbar icons */}
-      This is a header
     </header>
   );
 }
