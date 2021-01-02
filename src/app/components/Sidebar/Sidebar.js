@@ -1,7 +1,7 @@
 import React from "react";
-import "./SideBar.css";
+import "./Sidebar.css";
 
-function SideBar() {
+function Sidebar() {
   return (
     <div className="sidebar">
       {/*	TODO: [LC-8]Sidebar */}
@@ -13,4 +13,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default Sidebar;

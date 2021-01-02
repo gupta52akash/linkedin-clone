@@ -1,5 +1,5 @@
 import React from "react";
-import SideBar from "../../components/SideBar/SideBar";
+import Sidebar from "../../components/Sidebar/Sidebar";
 import Feeds from "../../components/Feeds/Feeds";
 import Widgets from "../../components/Widgets/Widgets";
 
@@ -10,7 +10,7 @@ function Home() {
       {/*	   TODO: [LC-8]Sidebar */}
       {/*	   TODO: [LC-9] feed */}
       {/*	   TODO: [LC-10]Widgets */}
-      <SideBar></SideBar>
+      <Sidebar></Sidebar>
       <Feeds></Feeds>
       <Widgets></Widgets>
     </main>
