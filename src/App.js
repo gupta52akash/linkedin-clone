@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+		Hello World!
 		  {/* TODO: [LC-7]Header */}
 		  {/*		TODO: [LC-13] Logo */}
 		  {/*		TODO: [LC-14] search bar */}
