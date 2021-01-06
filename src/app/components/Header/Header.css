@@ -1,2 +1,33 @@
 .header {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+}
+.header__logo > svg {
+  color: #0a66c2;
+  font-size: 3.5rem;
+}
+
+.header__search {
+  display: flex;
+  margin: auto 10px auto 10px;
+  border-radius: 4px;
+  color: #00000099;
+  background-color: #eef3f8;
+}
+.header__search > svg {
+	margin: auto 10px auto 10px;
+}
+.header__input {
+  font-weight: 400;
+  font-size: 14px;
+  height: 34px;
+  background-color: transparent;
+  border: none;
+}
+
+.header__input:focus {
+  outline: none;
+      width: 50vw;
 }
